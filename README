@@ -1,0 +1,32 @@
+
+
+[README]
+
+Jacascript file has been used and tested with nodejs v14.16.1
+
+Options Available:
+                                |   ex:
+-json                           |   
+                                | 
+-s [start year]                 |   -s 1990
+                                |   
+-e [end year]                   |   -e 2000
+                                |   
+-d [delimeter between d-m-y]    |   -d '/:_-;'             
+                                |   
+-p [path]                       |   -p './birthlist'                     
+
+
+
+* -s and -e options must be provided
+* -json option if passed will output json file instead of txt
+* the options passed do not require to follow the order showed.
+
+The script will generate a list of possibile birth combinations based on the years and delimeters passed.
+
+Default delimeters are: '' , ' - ' , ' / '
+
+Default will generate combination like: 0551990, 05-5-1990, 5/05/1990  
+
+Other delimeteres can be passed with option -d 
+ 
